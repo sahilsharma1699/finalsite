@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&family=Roboto&display=swap');
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+*:focus {
+    outline: none;
+}
+
+.intro{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../intropic.jpg"); 
+}
+.introcontent{
+    position: absolute;
+    z-index: 1;
+    margin-left: 43%;
+    margin-top: 3%;
+    text-align: center;
+}
+.intropi{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    color: #424642 !important;
+}
+.nav-link{
+    font-family: 'Roboto', sans-serif; 
+    color: #424642 !important;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list-inline{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+.edurow{
+    padding: 0% 5% 5% 5%;
+}
+.card{
+    text-align: center;
+}
+ .card-header{
+     background: #bdc7c9 !important; 
+     font-family: 'Lato', sans-serif;
+    color: black !important;
+ }
+ .card-title{
+    font-family: 'Roboto', sans-serif;
+    color: black !important;
+
+ }
+ .card-text{
+    font-family: 'Roboto', sans-serif;
+    color: black !important;
+ }
+.edusec{
+    font-family: 'Montserrat', sans-serif;
+    color: black !important;
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+}
+
+
+/*          skills           */
+
+
+.part3{
+    background-color: #dddddd;
+    height: 100vh;
+    width: 100vw;
+}
+.sklrow{
+    padding: 0% 10% 3% 10%;
+}
+.skl{
+    font-family: 'Montserrat', sans-serif;
+    color: black !important;
+    text-align: center;
+    padding: 5% 0% 3% 0%;
+}
+.parentcard{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+
+
+
+/*          contact me             */
+
+.part4{
+    text-align: center;
+    background-color: #dddddd;
+}
+.nametext{
+    font-family: 'Roboto', sans-serif;
+}
+.cont{
+    font-family: 'Montserrat', sans-serif;
+    padding: 2% 0% 1% 0%;
+    margin: 0%;
+}
+.li{
+    padding: 2% 0% 0% 3%;
+    text-align: center;
+}
+.btn {
+	box-shadow: 7px 9px 19px -9px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:21px;
+	border:5px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+    color:#ffffff;
+    font-family: 'Lato', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:-5px 12px 26px #3d768a;
+}
+.btn:hover {
+    background:linear-gradient(to bottom, #cdd0cb 5%, #cdd0cb 100%);
+    background-color: #cdd0cb;
+}
+.footer-link{
+    padding: 0% 3% 0% 0%;
+}
+.nametext{
+    padding: 1% 0% 2% 0%;
+    margin: 0% !important;
+}
+
+
+
+
+/*          traverse         */
+
+.part5{
+    text-align: center;
+}
+.imag{  
+    width:100vw;
+    height: 100vh;
+    padding: 5% 20% 5% 20%;
+}
+.traverseText{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 4% 0% 1% 0%;
+}
+.carousel-control-prev{
+	margin-left: 20%;   
+}
+.carousel-control-prev-icon{
+	background-color: black;
+	height: 30px;
+	width: 30px;
+}
+.carousel-control-next{
+	margin-right: 20%;
+}
+.carousel-control-next-icon{
+	background-color: black;
+	height: 30px;
+	width: 30px;
+}
